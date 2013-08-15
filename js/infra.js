@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
-	//alert("HI");
-
 	if(!Modernizr.input.placeholder){
-
-		//alert("HI");
 
 		$('[placeholder]').focus(function() {
 		  var input = $(this);
@@ -28,4 +24,5 @@ $(document).ready(function(){
 		  })
 		});
 	}
+
 });
