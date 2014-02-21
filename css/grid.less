@@ -1,7 +1,7 @@
 html {
 	margin: 0em 0em 0em 0em;
-	padding: 1em 0em 0em 0em;
-	font-family: sans-serif;
+	padding: 0em 0em 0em 0em;
+	/*font-family: sans-serif;*/
 	/*background-color: @color-gray;*/
 	/*color: @color-black;*/
 }
@@ -18,7 +18,7 @@ div#container {
 }
 
 div.centered {
-	width: 70%;
+	width: 1024px;
 	margin: 0em auto;
 }
 
@@ -47,9 +47,10 @@ div.row {
 .column16 {
 	margin: 0em 0.78125% 0em 0.78125%;
 	padding: 0em 0em 0em 0em;
+	
 	float: left;
-	background-color: #ccc;
-	background-color: rgba(255, 0, 255, 0.05);
+	/*background-color: #ccc;*/
+	/*background-color: rgba(255, 0, 255, 0.05);*/
 }
 
 .column1 {
@@ -151,31 +152,19 @@ div.row {
 }
 
 .margin-top-half {
-	margin-top: 0.5em !important;
+	margin-top: 1.1rem !important;
 }
 
 .margin-top-one {
-	margin-top: 1em !important;
+	margin-top: 2.2rem !important;
 }
 
 .margin-top-two {
-	margin-top: 2em !important;
+	margin-top: 4.4rem !important;
 }
 
 .margin-top-three {
-	margin-top: 3em !important;
-}
-
-.margin-top-four {
-	margin-top: 4em !important;
-}
-
-.margin-top-five {
-	margin-top: 5em !important;
-}
-
-.margin-top-six {
-	margin-top: 6em !important;
+	margin-top: 8.8rem !important;
 }
 
 /* right */
@@ -420,7 +409,7 @@ div.row {
 
 @media only screen and (max-width: 640px) {
 	html {
-		background-color: #fff;
+		background-color: @color-white;
 	}
 	div.centered {
 		width: 100%;
@@ -450,7 +439,7 @@ div.row {
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
 	html {
-		background-color: #ddd;
+		background-color: @color-white;
 	}
 	div.centered {
 	width: 75%;
@@ -460,7 +449,7 @@ div.row {
 
 @media only screen and (min-width: 1025px) {
 	html {
-		background-color: #bbb;
+		background-color: @color-white;
 	}
 	div.centered {
 	width: 75%;
