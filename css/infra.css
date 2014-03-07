@@ -722,18 +722,18 @@ button.btn-lg {
 .block {
   display: block;
 }
-ul#menu-social {
+ul#social {
   padding-top: 4px;
   padding-top: 0.4rem;
 }
-ul#menu-social li {
+ul#social li {
   display: inline-block;
   float: left;
   overflow: auto;
   margin-right: 16px;
   margin-right: 1.6rem;
 }
-ul#menu-social li a {
+ul#social li a {
   color: #c7cbc5;
   border: none;
   font-size: 24px;
@@ -741,31 +741,27 @@ ul#menu-social li a {
   line-height: 46px;
   line-height: 4.6rem;
 }
-ul#menu-social li a:hover {
+ul#social li a:hover {
   color: #4b4f54;
   border: none;
 }
-ul#menu-primary {
+ul#primary {
   padding-top: 8px;
   padding-top: 0.8rem;
   overflow: auto;
-  /*background-color: rgba(255, 0, 0, 0.5);*/
   height: 42px;
   height: 4.2rem;
 }
-ul#menu-primary li {
+ul#primary li {
   display: block;
   float: left;
-  /*overflow: auto;*/
   margin-right: 16px;
   margin-right: 1.6rem;
-  /*background-color: rgba(255, 0, 0, 0.5);*/
-  /*height: 30px;*/
 }
-ul#menu-primary li:first-child {
+ul#primary li:first-child {
   font-weight: 700;
 }
-ul#menu-primary li:first-child a {
+ul#primary li:first-child a {
   border-bottom: none;
 }
 input {
