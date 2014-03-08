@@ -518,17 +518,17 @@ h1 {
   /* 2 baselines */
 }
 h2 {
-  border-top: 0.3rem solid #4b4f54;
+  border-top: 0.1rem solid #4b4f54;
   /*background-color: rgba(0, 0, 255, 0.2);*/
   color: #4b4f54;
-  padding: 21px 0px 12px 0px;
-  padding: 2.1rem 0rem 1.2rem 0rem;
+  padding: 23px 0px 12px 0px;
+  padding: 2.3rem 0rem 1.2rem 0rem;
   font-size: 20px;
   font-size: 2.0rem;
   line-height: 36px;
   /* 24 x 3 = 72 / 2 = 36*/
   line-height: 3.6rem;
-  font-weight: 700;
+  /*font-weight: 700;*/
 }
 h3 {
   color: #4b4f54;
